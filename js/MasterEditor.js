@@ -110,9 +110,8 @@ function addQuestion(container) {
                 $(container + ' input').val('');
                 $(container + ' select').val('null');
                 $('#ca0').prop('checked', true);
-                for (var i = $(container + ' .answer-choice').length - 1; i > 1; i--) {
-                    $(container + ' .answer-choice').eq(i).remove();
-                    $(container + ' .correct-answer-indicator').eq(i).remove();
+                for (var i = $(container + ' .answers-container .row').length - 1; i > 1; i--) {
+                    $(container + ' .answers-container .row').eq(i).remove();
                 }
             }
             else if (response === 'found question') 
