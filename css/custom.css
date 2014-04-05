@@ -18,7 +18,7 @@
 }
 
 
-* {
+h1, h2, h3, h4, h5, h6, label, input, p, a {
 	font-family: 'Source Sans Pro', sans-serif !important;
 }
 
@@ -44,7 +44,7 @@ h3 {
 table {
 	width: 100%;
 }
-
+/*
 @media screen and (max-width: 40.063em) {
     body {
  	    background-image: url('../img/TinyDarkSkyward.png');
@@ -53,3 +53,4 @@ table {
 	    background-attachment: fixed;   
     }
 }
+*/

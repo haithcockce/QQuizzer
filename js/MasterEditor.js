@@ -592,7 +592,16 @@ function insertBoothNames() {
     }
     $('select.booth-dropdown').html(str);
 }
+/*
+function generateBooths() {
+    var formData = {
+        'requsting': 'generate questions'
+    };
+    $.post('MasterEditorBackend.php', formData, function(response) {
 
+    });
+}
+*/
 /**
  * logoutButtonHandler
  *
