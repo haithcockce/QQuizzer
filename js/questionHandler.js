@@ -60,6 +60,8 @@ function checkAnswer(booth) {
             $('.error').remove();
     }
 
+    $('input').prop('disabled', true);
+    $('a').attr('disabled', 'disabled').removeAttr('onclick').unbind('click');
     var correct = (($('input:checked').attr('id') == QUESTION_CORRECT_ANSWER_INDEX) ? true : false);
     var formData = {
         'requesting': 'answer a question',

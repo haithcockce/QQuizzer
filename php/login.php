@@ -61,5 +61,6 @@
          </fieldset>
       </form>
    </div>
+   <p class='watermark'>Produced by Charles Haithcock and powered by Appalachian State University's CS Department.</p>
 </body>
 </html>

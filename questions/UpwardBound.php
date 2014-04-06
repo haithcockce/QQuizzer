@@ -22,7 +22,7 @@
       }
    </style>
    <script>
-      var BOOTH = 'Nursing Booth';
+      var BOOTH = 'Upward Bound';
       $(document).ready(function() {
          if (localStorage.getItem('deviceID') === null)
             window.location = '../php/teamLogger.php';
@@ -48,12 +48,11 @@
             </div>
             <div class='row'>
                <div class='small-12 medium-12 large-12 column submit-button-container'>
-                  <a href='#' class='button expand' onclick='checkAnswer("Nursing Booth")'>Submit</a>
+                  <a href='#' class='button expand' onclick='checkAnswer("Upward Bound")'>Submit</a>
                </div>
             </div>
          </fieldset>
       </form>
    </div>
-   <p class='watermark'>Produced by Charles Haithcock and powered by Appalachian State University's CS Department.</p>
 </body>
 </html>

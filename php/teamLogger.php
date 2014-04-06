@@ -131,7 +131,7 @@
                <div class='small-12 medium-6 large-4 column'>
                   <p>
                      Make sure everything is correct when you submit it!
-                     If not, you can't be awarded if you win the raffle!
+                     If not, you can't be awarded if you win the contest!
                   </p>
                </div>
                <div class='small-12 medium-6 large-6 column'>
@@ -148,5 +148,6 @@
          </fieldset>
       </form>
    </div>
+   <p class='watermark'>Produced by Charles Haithcock and powered by Appalachian State University's CS Department.</p>
 </body>
 </html>
