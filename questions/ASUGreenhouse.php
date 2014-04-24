@@ -22,7 +22,7 @@
       }
    </style>
    <script>
-      var BOOTH = 'Health Careers';
+      var BOOTH = 'ASU Greenhouse';
       $(document).ready(function() {
          if (localStorage.getItem('deviceID') === null)
             window.location = '../php/teamLogger.php';
@@ -48,7 +48,7 @@
             </div>
             <div class='row'>
                <div class='small-12 medium-12 large-12 column submit-button-container'>
-                  <a href='#' class='button expand' onclick='checkAnswer("Health Careers")'>Submit</a>
+                  <a href='#' class='button expand' onclick='checkAnswer("ASU Greenhouse")'>Submit</a>
                </div>
             </div>
          </fieldset>
