@@ -26,14 +26,14 @@ function buttonHandler(container) {
     //check to see if this class is already active
     if($(container).hasClass('active')) return;
 
-    $('.active').fadeOut('fast');
-    $('.active [class*="error"]').remove();
-    //$('.active input').val('');
-    //$('.active .question-dropdown, .active .booth-dropdown').val('null');
-    $('.active').removeClass('active');
-    $(container).addClass('active');
-    $('.active').fadeIn('slow');
-}
+    if($('.active').length == 0) $(container).addClass('active');
+    $('.active').slideUp('fast', 'linear', function(){
+        $('.active [class*="error"]').remove();
+        $('.active').removeClass('active');
+        $(container).addClass('active');
+        $('.active').slideDown('fast', 'linear');
+    });
+   }
 
 function addQuestion(container) {
     //check for a selected booth
